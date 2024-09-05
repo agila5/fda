@@ -812,7 +812,7 @@ times.fd <- function(e1, e2, basisobj=NULL)
 # need the following to eliminate a goofy warning in R CMD check
 #    Warning:  found an S4 version of 'mean'
 #    so it has not been imported correctly
-mean <- function(x, ...)UseMethod('mean')
+# mean <- function(x, ...)UseMethod('mean')
 
 #  ----------------------------------------------------------------
 #       mean for fd class
